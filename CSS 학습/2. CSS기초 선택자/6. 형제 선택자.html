@@ -10,29 +10,30 @@
     <style>
         /* 인접 형제 선택자 */
 
-        .orange + li {
+        .orange+li {
             color: orangered;
             /* 바로 윗형의 클래스가 orange인 li태그 => 사과, 자몽 */
         }
 
-        li + li {
+        li+li {
             font-size: 24px;
             /* 어린쥐 제외한 li태그 */
         }
 
         /* 일반 형제 선택자 */
 
-        .red ~ li {
+        .red~li {
             background: red;
             /* 형들 중에 클래스 red가 있는 li태그 => 포도, 레몬, 복숭아, 체리*/
         }
 
         /* 그룹 선택자 */
-        
-        h1,h2,h3 {
+
+        h1,
+        h2,
+        h3 {
             font-weight: 400;
         }
-
     </style>
 </head>
 
