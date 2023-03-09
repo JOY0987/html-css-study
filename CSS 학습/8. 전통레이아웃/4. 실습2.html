@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- reset css -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet"> -->
+
+    <!-- common css -->
+    <link rel="stylesheet" href="../../common.css">
+
+    <style>
+        .container {
+            width: 800px;
+            border: 4px double black;
+            margin: 20px auto 0;
+         }
+
+        .container header {
+            text-align: center;
+        }
+
+        .container header h1 {
+            background: lightgray;
+            padding: 20px 0;
+            font-size: 2em;
+            font-weight: 700;
+            font-family: "궁서체", sans-serif;
+        }
+
+        .container header h2 {
+            background: black;
+            padding: 8px 0;
+            color: white;
+        }
+
+        .container header h2 p {
+            display: inline-block;
+            color: yellow;
+            font-size: 1.1em;
+        }
+
+        .container .main {
+            background: gray;
+            border-top: 3px solid lightgray;
+            padding: 3% 1% 3% 2%;
+        }
+
+        .container .main .fl {
+            float: left;
+            width: 24%;
+            height: 340px;
+            margin-right: 1%;
+            border: 1px solid lightgray;
+        }
+
+        .container .main .flw1 {
+            background: red;
+        }
+
+        .container .main .flw2 {
+            background: violet;
+        }
+
+        .container .main .flw3 {
+            background: orange;
+        }
+
+        .container .main .flw4 {
+            background: yellow;
+            margin-right: 0;
+        }
+
+        .container .main .fl .img1 {
+            background-image: url(../../img/tulip.jpg);
+        }
+
+        .container .main .fl .img2 {
+            background-image: url(../../img/jebi.jpg);
+        }
+
+        .container .main .fl .img3 {
+            background-image: url(../../img/hobak.jpg);
+        }
+
+        .container .main .fl .img4 {
+            background-image: url(../../img/sunflower.jpg);
+        }
+
+        .container .main .fl .img {
+            border: 1px solid lightgray;
+            background: url no-repeat;
+            background-size: cover;
+            width: 95%;
+            height: 45%;
+            margin: 2.5% auto;
+        }
+
+        .container .main .fl p {
+            padding: 15px 13px;
+            line-height: 1.2em;
+            text-align: justify;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>나의 아름다운 정원</h1>
+            <h2>사람들은 아마 자신에게 <p>자신감을 복돋워 주는</p> 표정 있는 꽃들을 선호할 것이다.</h2>
+        </header>
+        <div class="main clearfix">
+            <section class="flw1 fl">
+                <div class="img1 img"></div>
+                <p>너무 화려하지 않으며 고귀한 느낌을 가지고 있다.
+                    붉은 색이 단연 으뜸이며 한 송이만 있어도 빼어나다.
+                </p>
+            </section>
+            <section class="flw2 fl">
+                <div class="img2 img"></div>
+                <p>드물게 푸른색을 띠고 있으며 작지만 시원해 보이는
+                    어린 꽃이라고 할 수 있다. 여럿이 함께 있을 때 더욱 아름답다.
+                </p>
+            </section>
+            <section class="flw3 fl">
+                <div class="img3 img"></div>
+                <p>색도 모양도 화려하며 이름과 걸맞지 않게 아름다운 꽃으로
+                    매우 완숙한 이미지를 풍기는 꽃이다.
+                </p>
+            </section>
+            <section class="flw4 fl">
+                <div class="img4 img"></div>
+                <p>태양만 바라보는 일편단심의 꽃으로 얼굴이 큰 편에
+                    속하며 송이가 적어야 제격이다.
+                </p>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
