@@ -1,0 +1,157 @@
+@import url('../../common.css');
+@import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css');
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body {
+    background-color: rgb(185, 185, 185);
+    font-size: 0.8em;
+}
+
+#wrapper {
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+/* begin header style */
+#wrapper header {
+    background-color: #ffa54a;
+    text-align: center;
+}
+
+#wrapper header h1 {
+    color: white;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6em;
+    padding: 8px;
+}
+
+#wrapper header h1 span {
+    display: block;
+    color: white;
+    font-size: 0.2em;
+    padding-top: 8px;
+}
+
+#wrapper header .stit {
+    background: #e0e0e0;
+    padding: 3px;
+}
+/* //end header style */
+
+/* begin container style */
+
+#wrapper .container > * {
+    float: left;
+}
+
+/* > .side-menu */
+#wrapper .container .side-menu {
+    /* background: skyblue; */
+    width: 25%;
+}
+
+#wrapper .container .side-menu h3 {
+    background-color: #970000;
+    color: white;
+    padding: 8px;
+}
+
+#wrapper .container .side-menu ul {
+    padding: 10px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#wrapper .container .side-menu ul li {
+    padding-bottom: 1em;
+}
+
+/* > .main-content style */
+#wrapper .container .main-content {
+    width: 50%;
+    float: left;
+    background-color: #d1d1d1;
+    padding: 20px 10px 10px;
+    color: #123456;
+    font-weight: 700;
+}
+
+#wrapper .container .main-content .art-piece .title {
+    background-color: #003b60;
+    color: white;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+#wrapper .container .main-content .art-piece .title a {
+    display: block;
+    /* title 박스를 눌러도 링크가 연결됩니다 */
+}
+
+#wrapper .container .main-content .art-piece .artist {
+    font-size: 1.3em;
+    padding: 20px 0;
+}
+
+#wrapper .container .main-content .art-piece .detail {
+    padding: 0 0 30px;
+    font-weight: 400;
+}
+
+/* > .banner style */
+#wrapper .container .banner {
+    width: 25%;
+    float: right;
+    padding: 20px 10px 10px;
+    font-weight: 700;
+}
+
+#wrapper .container .banner h3 > span,
+strong {
+    font-size: 1.6em;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#wrapper .container .banner h3 .all {
+    color: rgb(119, 119, 119);
+    text-decoration: underline;
+}
+
+#wrapper .container .banner h3 .love {
+    color: #ffa54a;
+    text-decoration: underline;
+}
+
+#wrapper .container .banner h3 strong {
+    color: rgb(67, 0, 0);
+}
+
+#wrapper .container .banner .link {
+    padding-top: 30px;
+}
+
+#wrapper .container .banner .link a {
+    text-decoration: underline;
+}
+
+#wrapper .container .banner .link span {
+    display: block;
+    padding: 0.5em 0 1em;
+    font-weight: 400;
+}
+/* //end .container style */
+
+#wrapper footer {
+    background-color: #003b60;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}

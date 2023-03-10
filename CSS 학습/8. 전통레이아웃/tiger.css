@@ -1,0 +1,78 @@
+@import url('../../common.css');
+@import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css');
+
+body {
+    background: gray;
+}
+
+#wrapper {
+    width: 70%;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+/* begin header style */
+
+#wrapper header {
+    background-color: rgb(12, 46, 90);
+    color: yellow;
+    font-family: '휴먼모음T', cursive;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    padding: 2% 0;
+}
+
+#wrapper header h1 strong {
+    color: white;
+    font-size: 3em;
+}
+
+#wrapper header h1 span {
+    font-size: 1.5em;
+}
+
+#wrapper header h1 em {
+    font-size: 2em;
+}
+
+/* //end header style */
+
+/* begin container style */
+
+#wrapper .container .menu {
+    width: 20%;
+    background-color: lightgray;
+    padding: 20px;
+    line-height: 2em;
+    text-decoration: underline;
+    float: left;
+}
+
+#wrapper .container .content {
+    width: 80%;
+    float: right;
+    background-color: #ffffff;
+}
+
+#wrapper .container .content h2 {
+    background: rgb(143, 0, 0);
+    padding: 1.5% 3%;
+    font-family: "궁서체", sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: yellow;
+}
+
+#wrapper .container .content p {
+    padding: 20px;
+    line-height: 1.3em;
+    text-align: justify;
+}
+
+/* //end container style */
+
+#wrapper footer {
+    background-color: #aaaaaa;
+    padding: 1% 2%;
+}
