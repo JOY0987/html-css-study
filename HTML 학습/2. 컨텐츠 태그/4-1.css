@@ -1,0 +1,97 @@
+@import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css');
+@import url('../../common.css');
+
+.container {
+    width: 90%;
+    margin: 2% auto;
+    position: relative;
+}
+
+.container .size {
+    /* header, main, footer 기본 사이즈 조절 */
+    width: 85%;
+    margin: 0 2.5% 3%;
+    float: left;
+}
+
+/* header style */
+.container header {
+    /* background: red; */
+    padding: 20px;
+    border-bottom: 3px solid rgb(177, 177, 177);
+}
+
+.container header h1 {
+    font-size: 1.3em;
+    font-weight: 700;
+    float: left;
+}
+
+.container header nav {
+    float: right;
+}
+
+.container header nav li {
+    float: left;
+    margin-right: 20px;
+}
+
+/* main style */
+.container .main {
+    /* background: lightblue; */
+    border: 3px solid rgb(225, 225, 225);
+    padding: 5% 3% 3%;
+}
+
+.container .main h2 {
+    color: red;
+    font-weight: 700;
+    padding-bottom: 5px;
+    border-bottom: 3px dashed red;
+    font-size: 1.3em;
+}
+
+.container .main .article-list article * {
+    text-align: center;
+    word-break: break-all;
+}
+
+.container .main .article-list article {
+    /* background: gray; */
+    width: 31%;
+    height: 600px;
+    margin: 2% 2% 0 0;
+    padding: 4% 4%;
+    float: left;
+    border: 3px solid blue;
+}
+
+.container .main .article-list h3 {
+    font-weight: 700;
+    font-size: 1.3em;
+    padding-bottom: 14%;
+}
+
+/* footer style */
+.container footer {
+    /* background: black; */
+    border-top: 3px solid gray;
+    padding: 20px 20px 80px;
+    font-style: italic;
+    color: gray;
+}
+
+.container footer div * {
+    float: left;
+    margin-right: 30px;
+}
+
+/* side-bar style */
+.container aside {
+    width: 8%;
+    height: 1100px;
+    background: rgb(180, 227, 127);
+    position: absolute;
+    right: 5px;
+    top: 70px;
+}
